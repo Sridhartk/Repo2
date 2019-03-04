@@ -5,6 +5,7 @@
     <classes>
       <class name="script.ValidLogin">
         <methods>
+          <include name="CloseApp"/>
           <include name="OpenApp"/>
           <include name="testLogin"/>
         </methods>

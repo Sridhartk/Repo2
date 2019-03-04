@@ -10,11 +10,13 @@ public class ValidLogin extends BaseTest{
 	@Test(priority=1)
 	public void testLogin()
 	{
-		String un=XL.getData(XL_PATH, "ValidLogin", 2, 0);
-		String pw=XL.getData(XL_PATH, "ValidLogin", 2, 1);
+		String un=XL.getData(XL_PATH, "ValidLogin", 3, 0);
+		String pw=XL.getData(XL_PATH, "ValidLogin", 3, 1);
 		
 		LoginPage lp=new LoginPage(driver);
+		lp.clicke();
 		lp.setUN(un);
+		lp.next11();
 		lp.setPW(pw);
 		lp.Clickon();
 	}

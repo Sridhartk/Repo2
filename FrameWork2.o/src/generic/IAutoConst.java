@@ -10,7 +10,7 @@ public interface IAutoConst {
 	String XL_PATH="./data/Books.xlsx";
 	String IMG_PATH="./images/";
 	
-	String APP_URL="http://testing-ground.scraping.pro/login";
+	String APP_URL="http://www.gmail.com";
 	
 	long ITO=10;
 	long ETO=10;
